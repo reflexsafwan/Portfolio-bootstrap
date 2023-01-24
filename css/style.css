@@ -1,0 +1,114 @@
+/* google fonts */
+
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+ *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+
+:root{
+	--bg-color: #020312;
+	--text-color: #fff;
+	--main-color: #eb4a4a;
+	--second-color: gray;
+	--other-color: #12141c;
+	--h1-font: 5.2rem;
+	--h2-font: 3.5rem;
+	--p-font: 1.1rem;
+}
+/* common css */
+body{
+	background-color:#020312 !important;
+	color: #ffff !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.section-style{
+	 padding: 160px 16% 90px; 
+}
+span{
+    color:#eb4a4a
+}
+.button{
+	display: inline-block;
+	padding: 14px 40px;
+	border-radius: 0.5rem;
+	font-size: 17px;
+	font-weight: 500;
+	background: #eb4a4a;
+	color: #fff;
+	border: 1px solid #eb4a4a;
+	transition: all .40s ease;
+    text-decoration: none;
+}
+.button:hover{
+	transform: scale(1.01) translateY(-5px);
+	background: transparent;
+	border: 1px solid #eb4a4a;
+}
+.section-heading h4{
+	
+		margin: 10px 0;
+		color: var(--main-color);
+		font-size: 20px;
+		font-weight: 600;
+
+}
+.section-heading h2{
+	font-size:3.5rem;
+}
+.about-content p{
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+	margin-bottom: 2rem;
+}
+
+
+header.sticky{
+	padding: 10px 16%;
+	background: var(--bg-color);
+	border-bottom: 1px solid #0e1630;
+  
+}
+.navbar-nav a{
+    transition: all .40s ease;
+    padding: 10px 25px;
+
+}
+
+.navbar-nav  a:hover{
+    background-color:#eb4a4a ;
+    border-radius: 0.5rem;
+    color: #fff !important;
+}
+
+.hero-area{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.hero-area h1{
+    margin: 20px 0;
+	font-size: 5.2rem;
+	font-weight: bold;
+	line-height: 1.1;
+	letter-spacing: 2px;
+}
+.hero-area h3{
+    font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 3rem;
+}
+.hero-area h4{
+    color:#eb4a4a;
+	font-size: 24px;
+	font-weight: 600;
+}
